@@ -1,1 +1,1 @@
-Test Playwright
+Test Playwright framework
