@@ -15,4 +15,5 @@ test('get started link', async ({ page }) => {
 
   // Expects the URL to contain intro.
   await expect(page).toHaveURL(/.*intro/);
+  console.log("Current URL is: " + page.url());
 });
